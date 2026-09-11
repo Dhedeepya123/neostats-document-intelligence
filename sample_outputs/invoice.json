@@ -1,0 +1,193 @@
+{
+  "document_name": "X51006328913.jpg",
+  "document_type": "invoice",
+  "processing_status": "PASS",
+  "overall_confidence": null,
+  "file_validation": {
+    "is_valid": true,
+    "file_type": "image/jpeg",
+    "file_size_bytes": 317323,
+    "page_count": 1,
+    "errors": []
+  },
+  "extracted_data": {
+    "fields": {
+      "seller_name": {
+        "value": "BEMED (SP) SDN. BHD.",
+        "source_text": "BEMED (SP) SDN. BHD.",
+        "page_number": 1
+      },
+      "seller_address": {
+        "value": "No.49, Jalan Dinar G U3/G, Subang Perdana, 40150 Shah Alam, Selangor D.E.",
+        "source_text": "No.49, Jalan Dinar G U3/G,\nSubang Perdana,\n40150 Shah Alam, Selangor D.E.",
+        "page_number": 1
+      },
+      "seller_phone": {
+        "value": "03-7845 8155",
+        "source_text": "03-7845 8155",
+        "page_number": 1
+      },
+      "seller_gst_number": {
+        "value": "001734164480",
+        "source_text": "001734164480",
+        "page_number": 1
+      },
+      "document_type": {
+        "value": "CASH RECEIPT",
+        "source_text": "CASH RECEIPT",
+        "page_number": 1
+      },
+      "cb_number": {
+        "value": "58273599475",
+        "source_text": "58273599475",
+        "page_number": 1
+      },
+      "invoice_date": {
+        "value": "02/Jan/2017",
+        "source_text": "02/Jan/2017",
+        "page_number": 1
+      },
+      "invoice_time": {
+        "value": "10:49:25",
+        "source_text": "10:49:25",
+        "page_number": 1
+      },
+      "cashier": {
+        "value": "be ()",
+        "source_text": "be ()",
+        "page_number": 1
+      },
+      "subtotal": {
+        "value": 165.0,
+        "source_text": "165.00",
+        "page_number": 1
+      },
+      "rounding_adjustment": {
+        "value": 0.0,
+        "source_text": "0.00",
+        "page_number": 1
+      },
+      "grand_total": {
+        "value": 165.0,
+        "source_text": "165.00",
+        "page_number": 1
+      },
+      "card_payment": {
+        "value": 165.0,
+        "source_text": "165.00",
+        "page_number": 1
+      },
+      "payment_method": {
+        "value": "MASTER",
+        "source_text": "MASTER",
+        "page_number": 1
+      },
+      "gst_amount": {
+        "value": 9.34,
+        "source_text": "9.34",
+        "page_number": 1
+      },
+      "gst_taxable_amount": {
+        "value": 155.66,
+        "source_text": "155.66",
+        "page_number": 1
+      },
+      "customer_name": {
+        "value": "ONG GUAT CHYE",
+        "source_text": "ONG GUAT CHYE",
+        "page_number": 1
+      },
+      "customer_points": {
+        "value": 3052,
+        "source_text": "3,052",
+        "page_number": 1
+      }
+    },
+    "line_items": [
+      {
+        "description": "ALPHA LIPID LIFE LINE 450MG 450G",
+        "quantity": 1.0,
+        "unit_price": 165.0,
+        "line_total": 165.0,
+        "source_text": "ALPHA LIPID LIFE LINE 450MG 450G\n1 184810 165.00 165 SR",
+        "page_number": 1
+      }
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "Line item 1: Quantity × Unit Price",
+        "formula": "quantity × unit_price ≈ line_total",
+        "operands": {
+          "quantity": 1.0,
+          "unit_price": 165.0,
+          "line_total": 165.0
+        },
+        "calculated_value": 165.0,
+        "reported_value": 165.0,
+        "variance": 0.0,
+        "status": "PASS"
+      },
+      {
+        "name": "Line totals reconcile to subtotal",
+        "formula": "sum(line_totals) ≈ subtotal",
+        "operands": {
+          "line_totals": [
+            165.0
+          ],
+          "subtotal": 165.0
+        },
+        "calculated_value": 165.0,
+        "reported_value": 165.0,
+        "variance": 0.0,
+        "status": "PASS"
+      },
+      {
+        "name": "Taxable amount plus tax",
+        "formula": "taxable_amount + tax ≈ total",
+        "operands": {
+          "taxable_amount": null,
+          "tax": 9.34,
+          "total": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE"
+      },
+      {
+        "name": "Payment minus total equals change",
+        "formula": "cash_paid - total ≈ change",
+        "operands": {
+          "cash_paid": null,
+          "total": null,
+          "change": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE"
+      },
+      {
+        "name": "Invoice total reconciliation",
+        "formula": "subtotal + tax - discount ≈ total",
+        "operands": {
+          "subtotal": 165.0,
+          "tax": 9.34,
+          "discount": null,
+          "total": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE"
+      }
+    ]
+  },
+  "processing_metadata": {
+    "ocr_used": false,
+    "processed_at": "2026-09-11T15:52:51.824248+00:00",
+    "processing_time_ms": 28084
+  }
+}

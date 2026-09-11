@@ -1,0 +1,382 @@
+{
+  "document_name": "Consolidated Balance Sheet 2017.pdf",
+  "document_type": "balance_sheet",
+  "processing_status": "PASS",
+  "overall_confidence": null,
+  "file_validation": {
+    "is_valid": true,
+    "file_type": "application/pdf",
+    "file_size_bytes": 135633,
+    "page_count": 1,
+    "errors": []
+  },
+  "extracted_data": {
+    "fields": {
+      "document_title": {
+        "value": "Consolidated Balance Sheet",
+        "source_text": "Consolidated Balance Sheet",
+        "page_number": 1
+      },
+      "as_at_date": {
+        "value": "March 31, 2017",
+        "source_text": "As at March 31, 2017",
+        "page_number": 1
+      },
+      "denomination": {
+        "value": "₹ in '000",
+        "source_text": "₹ in '000",
+        "page_number": 1
+      },
+      "capital_31_mar_17": {
+        "value": 5125091,
+        "source_text": "5,125,091",
+        "page_number": 1
+      },
+      "capital_31_mar_16": {
+        "value": 5056373,
+        "source_text": "5,056,373",
+        "page_number": 1
+      },
+      "reserves_and_surplus_31_mar_17": {
+        "value": 912814397,
+        "source_text": "912,814,397",
+        "page_number": 1
+      },
+      "reserves_and_surplus_31_mar_16": {
+        "value": 737984869,
+        "source_text": "737,984,869",
+        "page_number": 1
+      },
+      "minority_interest_31_mar_17": {
+        "value": 2914389,
+        "source_text": "2,914,389",
+        "page_number": 1
+      },
+      "minority_interest_31_mar_16": {
+        "value": 1806228,
+        "source_text": "1,806,228",
+        "page_number": 1
+      },
+      "deposits_31_mar_17": {
+        "value": 6431342479,
+        "source_text": "6,431,342,479",
+        "page_number": 1
+      },
+      "deposits_31_mar_16": {
+        "value": 5458732889,
+        "source_text": "5,458,732,889",
+        "page_number": 1
+      },
+      "borrowings_31_mar_17": {
+        "value": 984156439,
+        "source_text": "984,156,439",
+        "page_number": 1
+      },
+      "borrowings_31_mar_16": {
+        "value": 1037139597,
+        "source_text": "1,037,139,597",
+        "page_number": 1
+      },
+      "other_liabilities_and_provisions_31_mar_17": {
+        "value": 587088812,
+        "source_text": "587,088,812",
+        "page_number": 1
+      },
+      "other_liabilities_and_provisions_31_mar_16": {
+        "value": 381403308,
+        "source_text": "381,403,308",
+        "page_number": 1
+      },
+      "total_capital_and_liabilities_31_mar_17": {
+        "value": 8923441607,
+        "source_text": "8,923,441,607",
+        "page_number": 1
+      },
+      "total_capital_and_liabilities_31_mar_16": {
+        "value": 7622123264,
+        "source_text": "7,622,123,264",
+        "page_number": 1
+      },
+      "cash_and_balances_with_rbi_31_mar_17": {
+        "value": 379105485,
+        "source_text": "379,105,485",
+        "page_number": 1
+      },
+      "cash_and_balances_with_rbi_31_mar_16": {
+        "value": 300765846,
+        "source_text": "300,765,846",
+        "page_number": 1
+      },
+      "balances_with_banks_31_mar_17": {
+        "value": 114005711,
+        "source_text": "114,005,711",
+        "page_number": 1
+      },
+      "balances_with_banks_31_mar_16": {
+        "value": 89922969,
+        "source_text": "89,922,969",
+        "page_number": 1
+      },
+      "investments_31_mar_17": {
+        "value": 2107771120,
+        "source_text": "2,107,771,120",
+        "page_number": 1
+      },
+      "investments_31_mar_16": {
+        "value": 1936338475,
+        "source_text": "1,936,338,475",
+        "page_number": 1
+      },
+      "advances_31_mar_17": {
+        "value": 5854809871,
+        "source_text": "5,854,809,871",
+        "page_number": 1
+      },
+      "advances_31_mar_16": {
+        "value": 4872904174,
+        "source_text": "4,872,904,174",
+        "page_number": 1
+      },
+      "fixed_assets_31_mar_17": {
+        "value": 38146997,
+        "source_text": "38,146,997",
+        "page_number": 1
+      },
+      "fixed_assets_31_mar_16": {
+        "value": 34796976,
+        "source_text": "34,796,976",
+        "page_number": 1
+      },
+      "other_assets_31_mar_17": {
+        "value": 429602423,
+        "source_text": "429,602,423",
+        "page_number": 1
+      },
+      "other_assets_31_mar_16": {
+        "value": 387394824,
+        "source_text": "387,394,824",
+        "page_number": 1
+      },
+      "total_assets_31_mar_17": {
+        "value": 8923441607,
+        "source_text": "8,923,441,607",
+        "page_number": 1
+      },
+      "total_assets_31_mar_16": {
+        "value": 7622123264,
+        "source_text": "7,622,123,264",
+        "page_number": 1
+      },
+      "contingent_liabilities_31_mar_17": {
+        "value": 8182842892,
+        "source_text": "8,182,842,892",
+        "page_number": 1
+      },
+      "contingent_liabilities_31_mar_16": {
+        "value": 8535273826,
+        "source_text": "8,535,273,826",
+        "page_number": 1
+      },
+      "bills_for_collection_31_mar_17": {
+        "value": 308480352,
+        "source_text": "308,480,352",
+        "page_number": 1
+      },
+      "bills_for_collection_31_mar_16": {
+        "value": 234899997,
+        "source_text": "234,899,997",
+        "page_number": 1
+      },
+      "auditor_name": {
+        "value": "Deloitte Haskins & Sells",
+        "source_text": "Deloitte Haskins & Sells Chartered Accountants",
+        "page_number": 1
+      },
+      "audit_partner_name": {
+        "value": "P. B. Pardiwalla",
+        "source_text": "P. B. Pardiwalla Partner Membership No.: 40005",
+        "page_number": 1
+      },
+      "place": {
+        "value": "Mumbai",
+        "source_text": "Mumbai",
+        "page_number": 1
+      },
+      "signing_date": {
+        "value": "April 21, 2017",
+        "source_text": "April 21, 2017",
+        "page_number": 1
+      },
+      "company_name": {
+        "value": "HDFC Bank Limited",
+        "source_text": "HDFC Bank Limited",
+        "page_number": 1
+      }
+    },
+    "line_items": [
+      {
+        "description": "Capital",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 5125091,
+        "source_text": "Capital 1 5,125,091 5,056,373",
+        "page_number": 1
+      },
+      {
+        "description": "Reserves and surplus",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 912814397,
+        "source_text": "Reserves and surplus 2 912,814,397 737,984,869",
+        "page_number": 1
+      },
+      {
+        "description": "Minority interest",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 2914389,
+        "source_text": "Minority interest 2A 2,914,389 1,806,228",
+        "page_number": 1
+      },
+      {
+        "description": "Deposits",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 6431342479,
+        "source_text": "Deposits 3 6,431,342,479 5,458,732,889",
+        "page_number": 1
+      },
+      {
+        "description": "Borrowings",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 984156439,
+        "source_text": "Borrowings 4 984,156,439 1,037,139,597",
+        "page_number": 1
+      },
+      {
+        "description": "Other liabilities and provisions",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 587088812,
+        "source_text": "Other liabilities and provisions 5 587,088,812 381,403,308",
+        "page_number": 1
+      },
+      {
+        "description": "Total CAPITAL AND LIABILITIES",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 8923441607,
+        "source_text": "Total 8,923,441,607 7,622,123,264",
+        "page_number": 1
+      },
+      {
+        "description": "Cash and balances with Reserve Bank of India",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 379105485,
+        "source_text": "Cash and balances with Reserve Bank of India 6 379,105,485 300,765,846",
+        "page_number": 1
+      },
+      {
+        "description": "Balances with banks and money at call and short notice",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 114005711,
+        "source_text": "Balances with banks and money at call and short notice 7 114,005,711 89,922,969",
+        "page_number": 1
+      },
+      {
+        "description": "Investments",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 2107771120,
+        "source_text": "Investments 8 2,107,771,120 1,936,338,475",
+        "page_number": 1
+      },
+      {
+        "description": "Advances",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 5854809871,
+        "source_text": "Advances 9 5,854,809,871 4,872,904,174",
+        "page_number": 1
+      },
+      {
+        "description": "Fixed assets",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 38146997,
+        "source_text": "Fixed assets 10 38,146,997 34,796,976",
+        "page_number": 1
+      },
+      {
+        "description": "Other assets",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 429602423,
+        "source_text": "Other assets 11 429,602,423 387,394,824",
+        "page_number": 1
+      },
+      {
+        "description": "Total ASSETS",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 8923441607,
+        "source_text": "Total 8,923,441,607 7,622,123,264",
+        "page_number": 1
+      },
+      {
+        "description": "Contingent liabilities",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 8182842892,
+        "source_text": "Contingent liabilities 12 8,182,842,892 8,535,273,826",
+        "page_number": 1
+      },
+      {
+        "description": "Bills for collection",
+        "quantity": null,
+        "unit_price": null,
+        "line_total": 308480352,
+        "source_text": "Bills for collection 308,480,352 234,899,997",
+        "page_number": 1
+      }
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "Balance sheet: Assets equal capital and liabilities (31_mar_16)",
+        "formula": "total_assets ≈ total_capital_and_liabilities",
+        "operands": {
+          "period": "31_mar_16",
+          "total_assets": 7622123264.0,
+          "total_capital_and_liabilities": 7622123264.0
+        },
+        "calculated_value": 7622123264.0,
+        "reported_value": 7622123264.0,
+        "variance": 0.0,
+        "status": "PASS"
+      },
+      {
+        "name": "Balance sheet: Assets equal capital and liabilities (31_mar_17)",
+        "formula": "total_assets ≈ total_capital_and_liabilities",
+        "operands": {
+          "period": "31_mar_17",
+          "total_assets": 8923441607.0,
+          "total_capital_and_liabilities": 8923441607.0
+        },
+        "calculated_value": 8923441607.0,
+        "reported_value": 8923441607.0,
+        "variance": 0.0,
+        "status": "PASS"
+      }
+    ]
+  },
+  "processing_metadata": {
+    "ocr_used": false,
+    "processed_at": "2026-09-11T16:15:49.299270+00:00",
+    "processing_time_ms": 42814
+  }
+}

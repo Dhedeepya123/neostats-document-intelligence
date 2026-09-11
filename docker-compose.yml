@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: neostats-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: neostats_documents
+      POSTGRES_USER: neostats
+      POSTGRES_PASSWORD: neostats_password
+    ports:
+      - "55433:5432"
+    volumes:
+      - neostats_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  neostats_postgres_data:
