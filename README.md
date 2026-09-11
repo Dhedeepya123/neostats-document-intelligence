@@ -207,28 +207,22 @@ This provides transparent verification of extracted financial values.
 ## 🖥️ Frontend Screenshots
 
 ### Dashboard
-
-<!-- Add Dashboard screenshot here -->
+![Dashboard](docs/screenshots/dashboard.png)
 
 ### Document Upload
-
-<!-- Add Document Upload screenshot here -->
+![Document Upload](docs/screenshots/document-upload.png)
 
 ### Document Details
-
-<!-- Add Document Details screenshot here -->
+![Document Details](docs/screenshots/document-details.png)
 
 ### Validation Results
-
-<!-- Add Validation Results screenshot here -->
+![Validation Results](docs/screenshots/validation-results.png)
 
 ### Raw JSON
-
-<!-- Add Raw JSON screenshot here -->
+![Raw JSON](docs/screenshots/raw-json.png)
 
 ### Analytics
-
-<!-- Add Analytics screenshot here -->
+![Analytics](docs/screenshots/analytics.png)
 
 ## 🧪 Testing
 
